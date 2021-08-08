@@ -24,8 +24,8 @@ h1 {
 }
 img {
   float: center;
-  margin: 2rem auto 0 auto;
-  width: 40%;
+  margin: auto;
+  width: 10%;
 }
 .englishColors button {
   background: #282c34;

@@ -31,9 +31,9 @@ const englishFlag="https://www.ecured.cu/images/thumb/a/a7/Bandera-de-inglaterra
     return (
         <div className="Header">
            
-            <nav><h1> Mi lista mamalona</h1>
-            <img onClick={changeLenguaje} src={lenguaje? englishFlag:spanishFlag}  alt="" />
-            <button type="button" onClick={changeLenguaje}>{`${lenguaje? 'English': 'Español'}`} </button>
+            <nav><h1> Mi lista mamalona </h1>
+            
+            <button type="button" onClick={changeLenguaje}>{`${lenguaje? 'English': 'Español'}`} </button> <img onClick={changeLenguaje} src={lenguaje? englishFlag:spanishFlag}  alt="" />
             
             </nav>
            
