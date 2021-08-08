@@ -25,6 +25,7 @@ h1 {
 img {
   float: center;
   margin: auto;
+  max-height: 30px;
   width: 10%;
 }
 .englishColors button {
