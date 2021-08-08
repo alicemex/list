@@ -28,6 +28,9 @@ img {
   max-height: 30px;
   width: 45px;
 }
+.Header {
+  padding: 0 1rem 2rem 1rem;
+}
 .englishColors button {
   background: #282c34;
 }
@@ -38,6 +41,7 @@ img {
   color: #282c34;
   background: darkcyan;
   padding-bottom: 5rem;
+  text-align: justify;
   animation: mymove 1s ease;
   min-height: 100vh;
 }
@@ -46,26 +50,9 @@ img {
   color: darkcyan;
   background-color: #282c34;
   min-height: 100vh;
+  text-align: justify;
   padding-bottom: 5rem;
   animation: spanish 1s ease;
-}
-
-.textBox p {
-  color: #282c34;
-  font-size: large;
-  text-align: justify;
-}
-.textBox {
-  background-color: white;
-  border-radius: 10px;
-  width: 90%;
-  min-height: 50vh;
-  margin: 1rem auto;
-  padding: 1rem;
-  box-sizing: border-box;
-  -webkit-box-shadow: -1px 3px 19px 0px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: -1px 3px 19px 0px rgba(0, 0, 0, 0.75);
-  box-shadow: -1px 3px 19px 0px rgba(0, 0, 0, 0.75);
 }
 
 @keyframes spanish {
